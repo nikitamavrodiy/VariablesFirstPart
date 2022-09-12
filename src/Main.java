@@ -42,7 +42,9 @@ public class Main {
         var WeightTotal = WeightFirstBoxer + WeightSecondBoxer;
         System.out.println("Общий вес двух бойцов " + WeightTotal);
         var WeightDifferent = WeightSecondBoxer - WeightFirstBoxer;
-        System.out.println("Разница между весами бойцов " + WeightDifferent);
+        System.out.println("Разница между весами бойцов(вычитание) " + WeightDifferent);
 
+        WeightDifferent = WeightSecondBoxer % WeightFirstBoxer; //Задача 7
+        System.out.println("Разница между весами бойцов(остаток от деления) " + WeightDifferent);
     }
 }
