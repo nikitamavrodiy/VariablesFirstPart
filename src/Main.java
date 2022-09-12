@@ -47,13 +47,14 @@ public class Main {
         weightDifferent = weightSecondBoxer % weightFirstBoxer; //Задача 7
         System.out.println("Разница между весами бойцов(остаток от деления) " + weightDifferent);
 
-        var workHours = 640; //Задача 8
+        var workHours = 640; //Задача 8.1
         var eachWorkerHours = 8;
         var totalWorkers = workHours / eachWorkerHours;
         System.out.println("Всего работников в компании – " + totalWorkers + " человек");
 
-        var totalWorkersMore = totalWorkers + 94;
+        var totalWorkersMore = totalWorkers + 94; //Задача 8.2
         var workHoursMore = totalWorkersMore * eachWorkerHours;
         System.out.println("Если в компании работает " + totalWorkersMore + " человек, то всего " + workHoursMore + " часов работы может быть поделено между сотрудниками");
+
     }
 }
