@@ -37,14 +37,23 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
 
-        var WeightFirstBoxer = 78.2; //Задача 6
-        var WeightSecondBoxer = 82.7;
-        var WeightTotal = WeightFirstBoxer + WeightSecondBoxer;
-        System.out.println("Общий вес двух бойцов " + WeightTotal);
-        var WeightDifferent = WeightSecondBoxer - WeightFirstBoxer;
-        System.out.println("Разница между весами бойцов(вычитание) " + WeightDifferent);
+        var weightFirstBoxer = 78.2; //Задача 6
+        var weightSecondBoxer = 82.7;
+        var weightTotal = weightFirstBoxer + weightSecondBoxer;
+        System.out.println("Общий вес двух бойцов " + weightTotal);
+        var weightDifferent = weightSecondBoxer - weightFirstBoxer;
+        System.out.println("Разница между весами бойцов(вычитание) " + weightDifferent);
 
-        WeightDifferent = WeightSecondBoxer % WeightFirstBoxer; //Задача 7
-        System.out.println("Разница между весами бойцов(остаток от деления) " + WeightDifferent);
+        weightDifferent = weightSecondBoxer % weightFirstBoxer; //Задача 7
+        System.out.println("Разница между весами бойцов(остаток от деления) " + weightDifferent);
+
+        var workHours = 640; //Задача 8
+        var eachWorkerHours = 8;
+        var totalWorkers = workHours / eachWorkerHours;
+        System.out.println("Всего работников в компании – " + totalWorkers + " человек");
+
+        var totalWorkersMore = totalWorkers + 94;
+        var workHoursMore = totalWorkersMore * eachWorkerHours;
+        System.out.println("Если в компании работает " + totalWorkersMore + " человек, то всего " + workHoursMore + " часов работы может быть поделено между сотрудниками");
     }
 }
