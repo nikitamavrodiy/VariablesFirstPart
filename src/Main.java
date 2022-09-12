@@ -36,5 +36,13 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+
+        var WeightFirstBoxer = 78.2; //Задача 6
+        var WeightSecondBoxer = 82.7;
+        var WeightTotal = WeightFirstBoxer + WeightSecondBoxer;
+        System.out.println("Общий вес двух бойцов " + WeightTotal);
+        var WeightDifferent = WeightSecondBoxer - WeightFirstBoxer;
+        System.out.println("Разница между весами бойцов " + WeightDifferent);
+
     }
 }
